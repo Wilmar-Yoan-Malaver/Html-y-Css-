@@ -91,122 +91,54 @@ nav li a:hover {
   background-color: #5E9E22;
 }
 
-/* middle Section */
-.middle_section {
-  padding-top: 50px;
-  padding-bottom: 60px;
-  text-align: center;
+/* Beneficios */
+.beneficios{
+  padding: 10%;
   display: flex;
-  justify-content: center;
-  box-shadow: 0px 1px 2px #00000029;
 }
 
-.middle {
-  display: flex;
-  padding: var(--space);
-  margin: 30px;
-}
-
-.middle .middle_info {
-  height: 240px;
-  width: 190px;
-  padding: 15px;
+.beneficio{
   text-align: center;
+  padding: 20px;
 }
-.middle_info h3 {
-  font-size: 17px;
-}
-.middle_info > p {
-  font-size: var(--normal);
-  text-align: left;
-}
-/* .middle img {
-  height: 140px;
-} */
 
-/* ----------------mentions------------ */
-.mentions_section {
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+
+/* Mentions */
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
   width: 100%;
-  position: relative;
 }
-.mentions_section h2 {
+h2.mention_title{
   text-align: center;
-  font-size: 30px;
-  margin-top: 80px;
 }
-.mentions_container {
-  /* white-space: nowrap; */
-  margin: 40px 0px;
-  padding-bottom: 10px;
-  display: flex; 
-  justify-content: center;
+.mention{
+  padding: var(--space);
 }
-.mentions_content {
-  /* outline: 1px solid red; */
-  width: 230px;
-  height: 190px;
-  display: inline-block;
-  margin: 5px;
-  text-align: left;
-  border-radius: 5px;
-  box-shadow: var(--box);
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
 }
-.mention_image {
-  width: 230px;
-  height: 105px;
-  border-radius: 2px;
-  overflow: hidden;
-}
-.mentions__item-img {
-  width: 230px;
-  height: 105px;
-  object-fit: cover;
+.mention .text{
+  padding: var(--space);
 }
 
-.mentions_description {
-  margin-left: 10px;
-  margin-right: 10px;
-  flex-direction: column;
-  width: 220px;
+/* ------------------------------------------- Footer */
+footer{
   display: flex;
-  flex-direction: column;
-}
-
-.mentions_tittle {
-  font-size: 17px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.mentions_subtittle {
-  font-size: 12px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/* --------Footer-------- */
-footer {
-  background-color: #313337;
-  padding: 5px;
-  color: white;
-}
-footer ul {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding-right: 15px;
-  padding-left: 15px;
-  list-style: none;
-}
-footer li {
-  list-style: none;
-}
-
-footer li a{
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
   color: var(--white-color);
-  text-decoration: none;
-}
-footer li a:hover{
-  text-decoration: none;
 }
 
 
